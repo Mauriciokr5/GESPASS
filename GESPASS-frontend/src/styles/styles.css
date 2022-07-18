@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald&display=swap');
+.MarginContainer {
+    margin-top: 24px;
+    min-height: 90vh;
+}
+
+.AlignCenter {
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.AlignCenterSub {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.AlignLeft {
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+}
+
+.TextTitle {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(36, 107, 107);
+}
+
+.SubTextTitle {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(5, 78, 56);
+}
+
+.CustomLink {
+    color: white;
+    text-decoration: none;
+}
+
+.CustomLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.M-6 {
+    margin: 6px;
+}
+
+.ImageContainer {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+
+.Image {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    object-fit: contain;
+    background-image: url("../assets/fpantalla3.png");
+}
+
+.sel-operacion {
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.formLogIn {
+    display: grid;
+    place-content: center;
+    min-height: 50vh;
+}
+
+button {
+    margin-right: 5px;
+}
+
+.aligndiv {
+    display: flex;
+    justify-content: center;
+}
+
+.alignConter {
+    border: 2px solid black;
+    border-radius: 20%;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.r-form-control {
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+}
+
+.r-form-control+.r-form-control {
+    margin-top: 1em;
+}
+
+.r-form-control:focus-within {
+    color: var(--form-control-color);
+}
+
+input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="radio"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+}
+
+.graf {
+    display: grid;
+    place-content: center;
+    min-height: 50vh;
+}
+
+.graf canvas {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.vergraf canvas {
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.card-header {
+    cursor: pointer;
+}

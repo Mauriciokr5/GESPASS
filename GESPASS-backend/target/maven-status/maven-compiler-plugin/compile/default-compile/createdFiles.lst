@@ -1,0 +1,8 @@
+modelo\Database.class
+passwdCRUD\newPassword.class
+passwdCRUD\showPasswords.class
+passwdCRUD\updatePassword.class
+passwdCRUD\searchPassword.class
+passwdCRUD\deletePassword.class
+signinup\SignIn.class
+signinup\SignUp.class
